@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KAORUKO PUNYAKU!!!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#article">Artikel</a></li>
+                <li><a href="#form-section">Kontak</a></li>
+            </ul>
+        </nav>
+        <h1>Selamat Datang di Halaman Buku Favorit Kami</h1>
+    </header>
+    
+    <main>
+        <section id="article">
+            <h2>Artikel Terkini</h2>
+            <article class="book-info">
+                <img src="/WebBook/photo/Kaoru_Hana_wa_Rin_to_Saku_volume_1_cover.jpg" alt="Book Cover" class="book-cover">
+                <div>
+                    <h3>The Fragrant Flower Blooms with Dignity</h3>
+                    <p><em>薫る花は凛と咲く, Kaoru Hana wa Rin to Saku</em> is a Japanese manga series written and illustrated by Saka Mikami. It began serialization on Kodansha's Magazine Pocket manga website and app in October 2021. An anime television series adaptation produced by CloverWorks is set to premiere in 2025.</p>
+                    <h4>Characters</h4>
+                    <p>
+                        Rintarō Tsumugi (紬 凛太郎, Tsumugi Rintarō)<br>
+                        Kaoruko Waguri (和栗 薫子, Waguri Kaoruko)<br>
+                        Usami Shōhei (翔平 宇佐美, Shōhei Usami)<br>
+                        Saku Natsusawa (夏沢 朔, Natsusawa Saku)<br>
+                        Ayato Yorita (依田 絢斗, Yorita Ayato)<br>
+                        Subaru Hoshina (保科 昴, Hoshina Subaru)<br>
+                        Kyōko Tsumugi (紬 杏子, Tsumugi Kyōko)
+                    </p>
+                    <h4>Manga</h4>
+                    <p>
+                        Written and illustrated by Saka Mikami, The Fragrant Flower Blooms with Dignity began serialization on Kodansha's Magazine Pocket website and app on October 20, 2021. The series has been collected in fourteen volumes as of October 2024.<br>
+                        Kodansha publishes the series in English on their K Manga service. At Anime Expo 2023, Kodansha USA announced that the series would be published in print starting in Q2 2024.
+                    </p>
+                </div>
+            </article>
+        </section>
+        
+        <section id="form-section">
+            <h4>Komentar</h4>    
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+                <span id="nameError" style="color: red;"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <span id="emailError" style="color: red;"></span>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" required></textarea>
+                <span id="messageError" style="color: red;"></span>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 I Wayan Wedya Diatmika</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
